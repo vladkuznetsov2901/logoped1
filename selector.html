@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>selectors</title>
+	<style>
+		#test {
+			border:1px solid blue;
+		}
+		#test .item {
+			
+			color:green;
+		}
+		p {
+			font-size:45px;
+		}
+		p.item {
+			font-style: italic;
+		}
+		p#par.item {
+			font-weight:bold;
+		}
+	</style>
+</head>
+<body>
+	
+<div id="test">
+	<p class="item">test1</p>
+	<p id="par" class="item">test2</p>
+	<p class="item">test3</p>
+</div>
+<span class="item">test4</span>
+
+</body>
+</html>

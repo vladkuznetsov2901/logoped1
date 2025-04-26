@@ -1,0 +1,160 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: url(картинка.jpg) 0px 0px repeat;
+}
+
+#kora {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: auto !important;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+
+    padding: 0;
+}
+
+
+.volcanoes {
+    background-color: #FFA089;
+    position: relative;
+    max-width: 2000px;
+    min-width: 100%;
+    height: 100px;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+hr {
+    border: 3px;
+    color: white;
+}
+
+.br {
+    color: white;
+    font-weight: 19px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+#content #menuleft {
+    border: 0px solid #000;
+    float: left;
+    margin-left: 500px;
+    margin-top: 50px;
+    min-width: 20%;
+    max-width: 1000px;
+    margin-right: 0px;
+    background: #85c9cf;
+    padding: 1%;
+    margin: 2% 10% auto;
+}
+
+.plusSlides {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    z-index: 10;
+    position: relative;
+    display: block;
+}
+
+#content #metaright {
+    position: relative;
+    margin-left: 30px;
+    float: left;
+    margin-top: 20px;
+    min-width: 20%;
+    border: 0px solid #1FA2E1;
+    background: #7a9e0e;
+    margin: 2% auto;
+}
+
+#metaright a,
+#menuleft a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    height: 100%;
+    color: white;
+    width: 300px;
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 699;
+}
+
+
+
+
+.prev,
+.next {
+    background-color: #7a9e0e;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin-left: 300px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#klick1 {
+    position: relative;
+    top: 50px;
+    max-width: 30%;
+    padding-left: 100px;
+}
+
+#klick2 {
+    position: relative;
+    top: 65px;
+    float: left;
+    padding-left: 0px;
+
+
+}
+
+.klick1,
+.klick2 {
+    transform: rotate(180deg);
+}
+
+.prev {
+
+    border-radius: 3px 0 0 3px;
+}
+
+.prev: hover,
+.next: hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.galeryses {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 800px;
+    min-height: auto;
+    position: relative;
+    top: 10%;
+}
+
+.a {
+    display: none;
+    width: auto;
+    height: auto;
+
+}
+
+img {
+    width: 60%;
+    display: inline-block;
+    margin-left: 200px;
+}
