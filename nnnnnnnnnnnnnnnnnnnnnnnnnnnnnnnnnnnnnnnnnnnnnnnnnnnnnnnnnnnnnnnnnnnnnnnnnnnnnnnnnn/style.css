@@ -115,7 +115,7 @@ h1 {
 .section1 {
     display: flex;
     background-color: #f4f3f3;
-    
+    justify-content: space-between;
 
 }
 
